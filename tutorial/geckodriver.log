@@ -1,0 +1,71 @@
+1523864452067	geckodriver	INFO	geckodriver 0.20.1
+1523864452079	geckodriver	INFO	Listening on 127.0.0.1:51438
+1523864455309	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile.R65UzJOhll8s"
+1523864458975	Marionette	INFO	Enabled via --marionette
+1523864476203	Marionette	INFO	Listening on port 51450
+1523864476378	Marionette	INFO	Listening on port 51450
+1523864476603	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523864476666	Marionette	DEBUG	loaded listener.js
+[GPU 664] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4336] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 664] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ 51548
+1523864533650	Marionette	INFO	Listening on port 51548
+1523864533752	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523864533801	Marionette	DEBUG	loaded listener.js
+1523864534291	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523864535099	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523864535100	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523864538672	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://testdemy.com/"
+1523864540556	Marionette	DEBUG	Received DOM event "pageshow" for "http://testdemy.com/"
+1523864540574	Marionette	DEBUG	Received DOM event "pageshow" for "http://testdemy.com/"
+1523864540596	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://testdemy.com/"
+1523864540599	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://testdemy.com/"
+1523864540677	Marionette	DEBUG	Received DOM event "pageshow" for "http://testdemy.com/"
+1523864540681	Marionette	DEBUG	Received DOM event "pageshow" for "http://testdemy.com/"
+1523864543863	Marionette	DEBUG	Received DOM event "pageshow" for "http://testdemy.com/"
+1523864543880	Marionette	INFO	New connections will no longer be accepted
+[GPU 2304] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3912] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3912] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 2304] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523864928998	geckodriver	INFO	geckodriver 0.20.1
+1523864929007	geckodriver	INFO	Listening on 127.0.0.1:51770
+1523864932057	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile.882hhIdKIc1J"
+1523864933096	Marionette	INFO	Enabled via --marionette
+1523864936728	Marionette	INFO	Listening on port 51780
+1523864936731	Marionette	INFO	Listening on port 51780
+1523864938049	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile.ukkwwCdtDFlD"
+1523864942421	Marionette	INFO	Enabled via --marionette
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+[Child 2304] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2304] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1523864951099	Marionette	INFO	Listening on port 51822
+1523864951111	Marionette	INFO	Listening on port 51822
+1523864951847	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523864951924	Marionette	DEBUG	loaded listener.js
+1523864951942	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523864952236	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523864952236	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1523864953185	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://testdemy.com/"
+1523864955135	Marionette	DEBUG	Received DOM event "pageshow" for "http://testdemy.com/"
+1523864955165	Marionette	DEBUG	Received DOM event "pageshow" for "http://testdemy.com/"
+1523864955203	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://testdemy.com/"
+1523864955213	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://testdemy.com/"
+1523864955315	Marionette	DEBUG	Received DOM event "pageshow" for "http://testdemy.com/"
+1523864955735	Marionette	DEBUG	Received DOM event "pageshow" for "http://testdemy.com/"
+1523864956583	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1523864956584	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967302"
+1523864956585	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967297"
+[Parent 1864] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5012] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5012] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

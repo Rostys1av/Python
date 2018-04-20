@@ -1,0 +1,94 @@
+Index: src/11_dictionaries.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/11_dictionaries.py	(date 1523954659000)
++++ src/11_dictionaries.py	(date 1523964221115)
+@@ -6,4 +6,32 @@
+ 
+ print(persone)
+ 
+-print(persone["address"])
+\ No newline at end of file
++print(persone["address"])
++
++#add key and value to dictionary
++
++persone["city"] = "Kiev"
++
++#Use in to see if the key in the dictionary
++
++print(persone)
++
++print("name" in persone)
++
++#Use not in to see if the key doesn't exist in a dictionary
++
++print("car" not in persone)
++
++print("name" not in persone)
++
++#Use "del" to delete key-value
++
++del (persone["city"])
++
++print(persone)
++
++#Change the value of a key
++
++persone["name"] = "Valentin"
++
++print(persone)
+\ No newline at end of file
+Index: 12_dictionaries.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- 12_dictionaries.py	(date 1523973662039)
++++ 12_dictionaries.py	(date 1523973662039)
+@@ -0,0 +1,42 @@
++#Dictionaries 2 = {"key":"value"}
++
++persone = {"name": "John Smith",
++           "address":"Baker str",
++           "job":"manager",
++           "city":"Keiv"}
++
++#key() method
++
++print(persone.keys())
++print("--------------------")
++
++#value() method
++
++print(persone.values())
++print("---------------------")
++
++#item() method
++
++print(persone.items())
++print("--------------------")
++
++#pop() mwthod
++persone.pop('address')
++print(persone)
++persone.popitem()
++print(persone)
++print("--------------------")
++
++#copy() method
++
++new_dictionary = persone.copy()
++
++print(new_dictionary)
++
++print("--------------------")
++
++#clear() method
++
++new_dictionary.clear()
++
++print(new_dictionary)
+\ No newline at end of file
